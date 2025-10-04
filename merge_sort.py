@@ -6,6 +6,9 @@ def merge_sort(array):
         left = array[:mid]
         right = array[mid:]
 
+        print(left)
+        print(right)
+
         merge_sort(left)
         merge_sort(right)
 
